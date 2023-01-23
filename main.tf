@@ -24,7 +24,7 @@ module "networking" {
 
 module "webserver" {
   source  = "app.terraform.io/lab_org_rpt/webserver/azurerm"
-  version = "0.12.0"
+  version = "0.13.0"
 
   name      = var.name
   location  = var.location
