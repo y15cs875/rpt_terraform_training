@@ -13,7 +13,7 @@ variable "subnet_address_prefixes" {
 
 module "networking" {
   source  = "app.terraform.io/lab_org_rpt/networking/azurerm"
-  version = "0.0.3"
+  version = "0.0.4"
 
   name                    = var.name
   location                = var.location
